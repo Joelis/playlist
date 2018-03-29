@@ -28,8 +28,8 @@ var mySong = {
 var myPlayList = [
 	{
 		"title":"I Need That",
-		"artist":"Lil Reese",
-		"https://www.youtube.com/watch?v=dsWgUDSszII",
+		"artist":"Lil l Reese",
+		 "link": "https://www.youtube.com/watch?v=dsWgUDSszII",
 		"image-url":"http://hw-static.worldstarhiphop.com/u/pic/2013/08/70701f4.jpg",
 	},
 	{
@@ -51,7 +51,7 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  $('.songs').append("<p>Company name: " + classroom.companyName + "</p>");
+  $(".songs").append("<p>Company name: " + classroom.companyName + "</p>");
 $("body").append("<h2>" + myObject.songGenre + "</h2>");
 
 
