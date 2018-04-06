@@ -59,15 +59,22 @@ $( document ).ready(function() {
 });
 
 function displayList(){
-$("body").append("<h2>" + myPlaylis.title + "</h2>");
+("body").append("<h2>" + myPlayList.title + "</h2>");
 
-  
+for(var i =0; i< myPlayList.length; i++){
+    var Playlist = myPlayListi];
+    	$("body").append("<h2>" + mySong.title + "</h2>");
+  $("body").append("<p>Artist: " + mySong.artist + "</p>");
+	$("body").append("<a href=https://www.youtube.com/watch?v=oRQO7IS0meM>" +	
+	"<img src=" + mySong.picture + ">" + "</a>");
+}
+           
 }
 
 function clearList(){
+
   
-  
-  
+ 
 }
 
 function addSong(){
