@@ -27,16 +27,16 @@ var mySong = {
 
 var myPlayList = [
 	{
-		title:"I Need That",
+		title:"All That Haten",
 		artist:"Lil Reese",
-		video:"https://www.youtube.com/watch?v=dsWgUDSszII",
-		picture:"http://hw-static.worldstarhiphop.com/u/pic/2013/08/70701f4.jpg",
+		video:"https://www.youtube.com/watch?v=7VhdmCsfPno",
+		picture:"http://baseshare.com/uploads/zips/8ea049d/lspa_600.PNG",
 	},
 	{
-		title:"Fashion",
-		artist:"Jay Critch ft. Rich the Kid",
-		video:"https://www.youtube.com/watch?v=ZBT7yXr-hDY",
-		picture:"https://i.ytimg.com/vi/ZBT7yXr-hDY/maxresdefault.jpg",
+		title:"Nonchalant",
+		artist:"A Boogie ft. Alkaline",
+		video:"https://www.youtube.com/watch?v=rQBftVxLJGI",
+		picture:"https://urbanislandz.com/wp-content/uploads/2018/02/Alkaline-and-A-Boogie-Wit-Da-Hoodie.jpg",
 	},
 	{
 		title:"Walk it Talk it",
@@ -56,25 +56,22 @@ $( document ).ready(function() {
 	$("body").append("<a href=https://www.youtube.com/watch?v=oRQO7IS0meM>" +	
 	"<img src=" + mySong.picture + ">" + "</a>");
 
-});
+for (var i = 0; i < myPlayList.length; i++) {
+	$("body").append("<h2>" + myPlayList[i].title + "</h2>");
+	$("body").append("<p>" + myPlayList[i].artist + "</p>");
+	$("body").append("<a href=https://www.youtube.com/watch?v=7VhdmCsfPno>" +	
+	"<img src=" + myPlayList[i].picture + ">" + "</a>");
+}
+})
+	
 
 function displayList(){
-("body").append("<h2>" + myPlayList.title + "</h2>");
 
-for(var i =0; i< myPlayList.length; i++){
-    var Playlist = myPlayListi];
-    	$("body").append("<h2>" + mySong.title + "</h2>");
-  $("body").append("<p>Artist: " + mySong.artist + "</p>");
-	$("body").append("<a href=https://www.youtube.com/watch?v=oRQO7IS0meM>" +	
-	"<img src=" + mySong.picture + ">" + "</a>");
 }
-           
-}
-
 function clearList(){
 
   
- 
+
 }
 
 function addSong(){
